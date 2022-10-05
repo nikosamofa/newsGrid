@@ -134,7 +134,15 @@ margin: auto;
   font-size: 3rem;
 }
 
+.list li a:hover{
+  color: var(--primary-color) !important;
+}
 
+.list li{
+  padding:.5rem 0;
+  border-bottom: #555 dotted 1px;
+  width: 90%;
+}
 /* Navigation */
 
 #main-nav{
@@ -258,7 +266,7 @@ margin: auto;
 
 /* Footer  */
 #main-footer{
-  background: var(---dark-color);
+  background: var(--dark-color);
   color: #fff;
 
 }
@@ -280,9 +288,10 @@ margin: auto;
 
 #main-footer .footer-container > *:last-child{
   background: #444;
-  grid-column: 1/span 4;
+  grid-column: 1 /span 4;
   padding: .5rem;
   text-align: center;
+  font-size: 0.75rem;
 
 }
 
